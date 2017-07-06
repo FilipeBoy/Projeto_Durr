@@ -1,0 +1,7 @@
+System.out.println("Code_List ="+Code_List);
+
+ if(SN!="" && Status!="" || teste!=""){
+}else{
+session.setAttribute("Message", "Favor preencher todos os campos!");
+request.getRequestDispatcher("View_Check_Entry.jsp").forward(request, response);
+}
